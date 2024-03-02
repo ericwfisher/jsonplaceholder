@@ -1,8 +1,8 @@
 import { forkJoin, tap } from 'rxjs';
-import { JsonPLaceholderApi } from './app/api/';
+import { JsonPlaceholderApi } from './app/api/';
 import { postToPatch, postToPut } from './app/model';
 
-const api = new JsonPLaceholderApi();
+const api = new JsonPlaceholderApi();
 
 // As Promises
 Promise.all([

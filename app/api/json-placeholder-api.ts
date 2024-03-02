@@ -2,7 +2,7 @@ import { catchError } from 'rxjs';
 import { HttpClient} from '../http-client';
 import { Post } from '../model';
 
-export class JsonPLaceholderApi {
+export class JsonPlaceholderApi {
   constructor(
     private http = new HttpClient(),
   ) {
