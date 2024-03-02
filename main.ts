@@ -14,7 +14,7 @@ Promise.all([
   console.log(values);
 });
 
-// As Obsefvables
+// As Observables
 forkJoin([
   api.getPost$(1),
   api.patchPost$(postToPatch),
